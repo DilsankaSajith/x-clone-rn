@@ -13,7 +13,7 @@ const commentSchema = mongoose.Schema(
       required: true,
     },
     content: {
-      type: string,
+      type: String,
       required: true,
       maxLength: 200,
     },
